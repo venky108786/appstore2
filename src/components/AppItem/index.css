@@ -1,1 +1,15 @@
 /* Write your CSS here */
+.appLi {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+  margin: 10px;
+  border-radius: 10px;
+}
+.app-img {
+  height: 60px;
+  width: 60px;
+}

@@ -318,7 +318,7 @@ class AppStore extends Component {
         </div>
 
         <div>
-          <ul>
+          <ul className="app-container">
             {appsList.map(eachApp => (
               <AppItem eachAppDetails={eachApp} key={eachApp.appId} />
             ))}

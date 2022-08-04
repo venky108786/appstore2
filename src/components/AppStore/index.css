@@ -6,6 +6,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  overflow: auto;
 }
 .heading {
   color: #000000;
@@ -39,4 +40,13 @@
   justify-content: space-between;
   align-items: center;
   margin-right: 32px;
+}
+.app-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 40px;
+  overflow: auto;
 }
