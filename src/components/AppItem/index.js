@@ -6,8 +6,8 @@ const AppItem = props => {
   const {appName, imageUrl} = eachAppDetails
   return (
     <li className="appLi">
-      <imp src={imageUrl} alt={appName} className="app-img" />
-      <p>{appName}</p>
+      <img src={imageUrl} alt={appName} className="app-img" />
+      <p className="app-name">{appName}</p>
     </li>
   )
 }

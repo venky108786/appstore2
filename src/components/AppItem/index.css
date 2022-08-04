@@ -1,15 +1,25 @@
 /* Write your CSS here */
 .appLi {
+  height: 140px;
+  width: 140px;
   background-color: #ffffff;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 12px;
-  margin: 10px;
+  margin: 5px;
   border-radius: 10px;
 }
 .app-img {
-  height: 60px;
-  width: 60px;
+  height: 55x;
+  width: 55px;
+  margin-top: 5px;
+}
+.app-name {
+  font-size-adjust: 0.58;
+  font-size: 12px;
+  font-weight: bold;
+  color: #000000;
+  text-align: center;
 }

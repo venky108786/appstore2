@@ -1,12 +1,11 @@
 /* Write your CSS here */
 .main-background {
   background-image: linear-gradient(#fff1eb, #ace0f9);
-  height: 100vh;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  overflow: auto;
 }
 .heading {
   color: #000000;
